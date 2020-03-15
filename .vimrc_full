@@ -1,8 +1,10 @@
+execute pathogen#infect()
 call pathogen#infect()
 "set background=dark
 syntax on
-colorscheme lucius
-LuciusWhite
+"colorscheme lucius
+colorscheme gruvbox
+"LuciusWhite
 
 set t_Co=256
 set nocompatible
